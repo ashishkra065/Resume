@@ -1,0 +1,199 @@
+\documentclass[A4,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #} \\
+    \end{tabular*}\vspace{-15pt}
+}
+
+\newcommand{\resumeProjectHeading}[1]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #} \\
+    \end{tabular*}\vspace{-15pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ashish Kumar} \\ \vspace{1pt}
+    \small  Veraval, [Gujarat,362266] \\
+    \small +919023017730 $|$ \
+    {\underline{ashishkrao3@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ashish-kumar0509/}{\underline{LinkedIn}} $|$ 
+    \href{https://github.com/ashishkra065/}
+    {\underline{GitHub}}
+\end{center}
+\vspace{-15pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Technology in Information Technology}{Sept 2020 -- June 2024}
+      {\textbf{Amity University, Noida, India - 7.2 CGP}A }{{}}
+      \vspace{-5pt}
+      \resumeItem{\textit{\textbf{Relevant Coursework}: Cybersecurity, Cyber Forensics, Data Structures and Algorithms, Database Management Systems, Cloud Computing}}
+    \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Skills}{:SOC analysis,Web Security,Penetration Testing,Network Security,PKI,IAM,ITIL V4,Problem Solving, AWS Cloud, Risk Management}\\
+     \textbf{Frameworks}{:ISO27001, ITIL,OWASP TOP-10}\\
+     \textbf{Programming Languages}{: Python,SQL,Shell Scripting} \\
+     \textbf{Tools}{: Wireshark,Splunk,AWS,Burpsuite,Nmap,Metasploit,Nessus} \\
+     
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+    
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Graduate Engineering Trainee - Cyber Security}{Aug 2024 - Present} 
+      {\textbf{Century Enka,Pune}}
+      {}{}
+      \resumeItemListStart
+      \resumeItem{Assisted in implementing network security protocols, including firewall & switch configurations and IPS/IDS monitoring, improving threat detection by 30\(\%\).}
+      \resumeItem{Supported compliance audits for ISO27001 and DPDP-Act, ensuring 100\(\%\) regulatory adherence.}
+      \resumeItem{Worked on penetration testing exercises simulating Cyberattacks on internal system to identify and patch vulnerabilities before exploitation}
+      \resumeItem{Managed role-based access controls, enforcing least privilege principles and reducing unauthorized access risks by 25\(\%\).}
+      \resumeItemListEnd
+    \resumeSubheading
+    {Network Security Intern}{May 2023-June 2023}
+    {Grasim Industries,Veraval}
+    {}{}
+    \resumeItemListStart
+    \resumeItem{Assisted in configuring and managing Fortinet Firewalls,Improving network security posture}
+    \resumeItem{Researched and Documented best practices for DDoS mitigation,endpoint security,and secure network architecture,contributing to team knowledge base updates}
+    \resumeItem{Streamlined onboarding processes by setting up email accounts, VPN access, and MFA, reducing onboarding time by 20\(\%\).}
+    
+  
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+ \resumeProjectHeading
+       {\textbf{Secure Image Encryption and Transmission using ECC and AES}}{}
+       
+       \resumeItemListStart
+            \resumeItem{Developed an image encryption system using AES-256 and Elliptic Curve Cryptography for secure image sharing between two client.}
+\resumeItem {Engineered encryption and decryption modules that achieved 100\(\%\) data integrity}
+\resumeItem {Implemented a real-time image exchange system using Python and Web-sockets over UDP,ensuring efficient and low-latency transmission}
+\resumeItem {Integrated cryptographic libraries such as Crypto,HMAC,and hashlib,enhancing the security of the encryption  scheme}
+\resumeItem {Configured a UDP-based communication channel to facilitate seamless image transfer over a local network}
+\resumeItem {Leveraged computer vision techniques with OpenCV and PIL to handle image preprocessing and post-Processing}
+
+
+\resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Elastic Siem Lab Using Kali VM }}{}
+    
+        \resumeItemListStart
+        
+        
+        \resumeItem{Configured the Elastic Agent on the Kali VM to collect the logs and forward it to the SIEM.}
+\resumeItem{Generated security events on the Kali VM like network scans, creating users and different other commands.}
+\resumeItem{Scripted Queries to find the security events in the Elastic SIEM.}
+\resumeItem{Created a Dashboard to visualize security events.}
+\resumeItem{Created rules and alerts for security events.}
+        
+ 
+        \resumeItemListEnd
+
+        
+ 
+  \resumeSubHeadingListEnd
+
+
+
+%-----------ACHIEVEMENTS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+       \resumeItem{ITIL-V4 Foundation issued by AXELOS (Nov-2024)} 
+    \resumeItem{Fortinet Certified Associate Cybersecurity issued by Fortinet (Sept-2024)}
+    \resumeItem{0x8 [Hacker] in TryHackMe.Com}
+    \resumeItem{5star Python Programming - Hackerrank.com}
+    \resumeItem{5star Problem solving - Hackerrank.com}
+    
+    
+   
+  \resumeSubHeadingListEnd
+
+\end{document}
